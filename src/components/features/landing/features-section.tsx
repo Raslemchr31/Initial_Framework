@@ -10,7 +10,6 @@ import {
 } from 'lucide-react';
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { FEATURES } from '@/lib/constants';
 
 const detailedFeatures = [
   {

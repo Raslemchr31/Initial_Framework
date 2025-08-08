@@ -1,4 +1,4 @@
-import { Check, X, Star } from 'lucide-react';
+import { Check, Star } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -37,7 +37,7 @@ export function PricingPreview() {
 
         {/* Pricing Cards */}
         <div className="grid gap-8 lg:grid-cols-3 lg:gap-6">
-          {pricingTiers.map((tier, index) => (
+          {pricingTiers.map((tier) => (
             <Card 
               key={tier.tier} 
               className={cn(
